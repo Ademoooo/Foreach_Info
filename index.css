@@ -1,0 +1,56 @@
+
+*{ 
+    margin: 0%;
+    padding: 0%;
+}
+@font-face{
+    font-family: chunk;
+    src: url(/assets/fonts/Chunk.otf);
+}
+
+/* header */
+@media screen {
+    
+}
+#button_menu{
+    background-color: #D4D4D4;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+}
+h1{
+    padding: 10px;
+    font-family: chunk;
+}
+
+nav {
+    background-color: #D4D4D4;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#div_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+}
+#div_hearder_bis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+#button_abonner {
+    background-color: #FFD830;
+    border-style: none;
+    padding: 5px;
+
+}
+a {
+    color: white;
+    text-decoration: none;
+}

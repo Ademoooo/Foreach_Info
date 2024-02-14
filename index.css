@@ -165,4 +165,13 @@ li{
     ul{
         flex-direction: column;
     }
+    #float_button{
+        background-color: #d14444;
+        position: fixed;
+        bottom: 30px;
+        right: 20px; 
+        border: none;
+        padding: 10px 11px;
+        border-radius: 5px;
+    }
     }

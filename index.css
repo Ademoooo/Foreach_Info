@@ -7,10 +7,15 @@
     font-family: chunk;
     src: url(/assets/fonts/Chunk.otf);
 }
+img{
+    width: 100%;
+    height: 100%;
+}
 
-/* header */
-@media screen {
-    
+/* header */ 
+
+#trait_haut_page{
+    border-top: #DC5F5F 5px solid;
 }
 #button_menu{
     background-color: #D4D4D4;
@@ -20,17 +25,28 @@
     align-items: center;
     border-style: none;
 }
+#button_menu:hover{
+    background-color: #999999;
+    font-size: bold;
+}
 h1{
+    color: #DC5F5F;
     padding: 10px;
     font-family: chunk;
 }
 
 nav {
-    background-color: #D4D4D4;
+    background-color: #DC5F5F;
     color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 5px;
+}
+
+.bar_nav:hover{
+    background-color: #d14444;
+
 }
 #div_header {
     display: flex;
@@ -48,9 +64,51 @@ nav {
     background-color: #FFD830;
     border-style: none;
     padding: 5px;
-
+}
+#button_abonner:hover {
+    background-color: #ffd000;
+    font-size: bold;
 }
 a {
     color: white;
     text-decoration: none;
+}
+/* main */
+
+.section_titre{
+    font-family: chunk;
+}
+
+#culture_groupe1{
+    background-color: #DEDEDE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+}
+.div_culture1{
+    background-color: white;
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    height: 200px;
+}
+
+.photo_article{
+    height: 100%;
+    width: 50%;
+    padding: 0%;
+    margin: 0%;
+}
+
+.texte_article{
+    width: 50%;
+}
+.text_article_gras {
+    Font-weight: bold;
+}
+
+section{
+    padding: 10px 50px;
 }

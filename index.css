@@ -113,6 +113,8 @@ a {
     margin: 5px;
     padding: 5px;
     width: 25%;
+    height: 200px;
+    overflow: auto;
 }
 .div_culture1:hover{
     background-color: #ffe77e;

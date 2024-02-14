@@ -107,7 +107,7 @@ a {
     padding: 5px;
 }
 
-.div_culture1{
+.div_articles{
     background-color: white;
     display: flex;
     align-items: center;
@@ -117,7 +117,7 @@ a {
     height: 200px;
     overflow: auto;
 }
-.div_culture1:hover{
+.div_articles:hover{
     background-color: #ffe77e;
 }
 
@@ -131,7 +131,7 @@ a {
 .texte_article{
     width: 50%;
 }
-.text_article_gras {
+.texte_gras {
     Font-weight: bold;
     width: auto;
 }
@@ -144,7 +144,7 @@ section{
         display: flex;
         flex-direction: column;
     }
-    .div_culture1 {
+    .div_articles {
         width: 90%;
     }
 }

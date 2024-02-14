@@ -2,6 +2,7 @@
 *{ 
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
 }
 @font-face{
     font-family: chunk;
@@ -73,13 +74,30 @@ a {
     color: white;
     text-decoration: none;
 }
+
+@media screen and (max-width: 600px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+    #button_menu span {
+        display: none;
+    }
+    #button_abonner{
+        display: none;
+    }
+    #div_header p {
+        display: none;
+    }
+}
+
 /* main */
 
 .section_titre{
     font-family: chunk;
 }
 
-#culture_groupe1{
+#tous_les_article{
     background-color: #DEDEDE;
     display: flex;
     justify-content: space-between;
@@ -92,7 +110,7 @@ a {
     display: flex;
     margin: 5px;
     padding: 5px;
-    height: 200px;
+    width: 25%;
 }
 
 .photo_article{
@@ -107,8 +125,18 @@ a {
 }
 .text_article_gras {
     Font-weight: bold;
+    width: auto;
 }
 
 section{
     padding: 10px 50px;
+}
+@media screen and (max-width: 600px) {
+    #tous_les_article{
+        display: flex;
+        flex-direction: column;
+    }
+    .div_culture1 {
+        width: 90%;
+    }
 }

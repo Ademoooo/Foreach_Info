@@ -164,6 +164,19 @@ li{
 #float_button{
     visibility: hidden;
 }
+
+#abonnez_vous {
+    background-color: #ffd000;
+    position: fixed;
+    display: flex;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    justify-content: center;
+    height: 40px;
+    padding: 10px;
+}
+
 @media screen and (max-width: 600px) {
     ul{
         flex-direction: column;

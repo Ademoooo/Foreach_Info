@@ -140,3 +140,22 @@ section{
         width: 90%;
     }
 }
+/* Footer */
+footer{
+    background-color: #d14444;
+}
+ul {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{ 
+    list-style: none;
+    padding: 10px;
+}
+@media screen and (max-width: 600px) {
+    ul{
+        flex-direction: column;
+    }
+    }

@@ -105,12 +105,17 @@ a {
     margin: 5px;
     padding: 5px;
 }
+
 .div_culture1{
     background-color: white;
     display: flex;
+    align-items: center;
     margin: 5px;
     padding: 5px;
     width: 25%;
+}
+.div_culture1:hover{
+    background-color: #ffe77e;
 }
 
 .photo_article{
